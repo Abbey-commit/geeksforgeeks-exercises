@@ -1,0 +1,30 @@
+[
+    [
+        "Adjustment",
+        "Adjustment disorderwith depressed mood"
+    ],
+    [
+        "Anxiety",
+        "PhobiaAgoraphobiaChildhood phobiaSocial anxietySocial phobiaAnthropophobiaSpecific social phobiaSpecific phobiaClaustrophobiaOtherGeneralized anxiety disorderOCDPanic attackPanic disorderStressAcute stress reactionPTSD",
+        "Phobia",
+        "AgoraphobiaChildhood phobiaSocial anxietySocial phobiaAnthropophobiaSpecific social phobiaSpecific phobiaClaustrophobia",
+        "Other",
+        "Generalized anxiety disorderOCDPanic attackPanic disorderStressAcute stress reactionPTSD"
+    ],
+    [
+        "Phobia",
+        "AgoraphobiaChildhood phobiaSocial anxietySocial phobiaAnthropophobiaSpecific social phobiaSpecific phobiaClaustrophobia"
+    ],
+    [
+        "Other",
+        "Generalized anxiety disorderOCDPanic attackPanic disorderStressAcute stress reactionPTSD"
+    ],
+    [
+        "Dissociative",
+        "Depersonalization-derealization disorderDissociative identity disorderDissociative amnesiaDissociative fugueDissociative disorder not otherwise specifiedOther specified dissociative disorder"
+    ],
+    [
+        "Somatic symptom",
+        "Body dysmorphic disorderConversion disorderGanser syndromeGlobus pharyngisPsychogenic non-epileptic seizuresFalse pregnancyHypochondriasisMass psychogenic illnessNosophobiaPsychogenic painSomatization disorder"
+    ]
+]
