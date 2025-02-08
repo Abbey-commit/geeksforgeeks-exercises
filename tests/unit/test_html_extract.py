@@ -39,5 +39,15 @@ class TestHTMLExtract(unittest.TestCase):
         rows = list(table_row_data_iter('table'))
         self.assertEqual(rows, [['10.0', '8.04'], ['8.0', '6.95']])
 
+def find_table_caption(soup: BeautifulSoup, caption_text: str) -> Tag:
+    found_captions = []
+    for table in soup.find_all('table'):
+        if table.caption:
+            found_captions.append(table.caption.text.strip())
+            if table.caption.text.strip() == caption_text.strip():
+                return table
+    print("Available captions on the page:", found_captions)
+    raise RuntimeError(f"<table> with caption {caption_text!r} not found")
+
 if __name__ == "__main__":
     unittest.main()
